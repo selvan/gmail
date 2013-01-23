@@ -12,10 +12,12 @@ module Gmail
       end
 
       def login(raise_errors=false)
+        puts "is it to raise exception ? #{raise_errors}"
         @imap and @logged_in = (login = @imap.authenticate('XOAUTH2', username,
           oauth2_token)) && login.name == 'OK'
-      rescue
-        raise_errors and raise AuthorizationError, "Couldn't login to given GMail account: #{username}"
+      rescue Exception => e
+        puts "in raising exception.."
+        raise_errors and raise AuthorizationError, "#{e.message} Couldn't login to given GMail account: #{username}"
       end
 
       def smtp_settings
