@@ -2,6 +2,29 @@
 
 module GmailImapExtensions
 
+  def self.patch_net_imap_validate_data(klass = Net::IMAP)
+    klass.class_eval %q{
+      def validate_data(data)
+        case data
+        when nil
+        when String
+        when Integer
+          if data < 0
+            raise DataFormatError, num.to_s
+          end
+        when Array
+          data.each do |i|
+            validate_data(i)
+          end
+        when Time
+        when Symbol
+        else
+          data.validate
+        end
+      end
+    }
+  end
+
   def self.patch_net_imap_response_parser(klass = Net::IMAP::ResponseParser)
     klass.class_eval %q{
       def msg_att

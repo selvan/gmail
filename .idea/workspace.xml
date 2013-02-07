@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c08272a1-07a2-4215-8027-1d13337e9042" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/gmail/message.rb" afterPath="$PROJECT_DIR$/lib/gmail/message.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/gmail/client/base.rb" afterPath="$PROJECT_DIR$/lib/gmail/client/base.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/gmail/client/imap_extensions.rb" afterPath="$PROJECT_DIR$/lib/gmail/client/imap_extensions.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/gmail/mailbox.rb" afterPath="$PROJECT_DIR$/lib/gmail/mailbox.rb" />
     </list>
     <ignored path="gmail.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,10 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="message.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="message.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/gmail/message.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="4" selection-start="508" selection-end="508" vertical-scroll-proportion="0.5689655">
+            <state line="27" column="35" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -40,49 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mailbox.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="mailbox.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/gmail/mailbox.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="43" selection-start="2350" selection-end="2350" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/gmail/client/base.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="24" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="labels.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/gmail/labels.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="imap.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/net/imap.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="787" column="8" selection-start="29231" selection-end="29231" vertical-scroll-proportion="-13.16129">
+            <state line="60" column="77" selection-start="2236" selection-end="2236" vertical-scroll-proportion="0.65746754">
               <folding />
             </state>
           </provider>
@@ -91,16 +54,16 @@
       <file leaf-file-name="imap_extensions.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/gmail/client/imap_extensions.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="26" selection-start="1405" selection-end="1405" vertical-scroll-proportion="0.0">
+            <state line="4" column="39" selection-start="153" selection-end="181" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gmail.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/gmail.rb">
+      <file leaf-file-name="base.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/gmail/client/base.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="23" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0">
+            <state line="26" column="56" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,14 +82,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/gmail/client/base.rb" />
         <option value="$PROJECT_DIR$/lib/gmail/client.rb" />
         <option value="$PROJECT_DIR$/lib/gmail.rb" />
         <option value="$PROJECT_DIR$/lib/gmail/client/xoauth2.rb" />
         <option value="$USER_HOME$/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/net/imap.rb" />
-        <option value="$PROJECT_DIR$/lib/gmail/client/imap_extensions.rb" />
-        <option value="$PROJECT_DIR$/lib/gmail/mailbox.rb" />
         <option value="$PROJECT_DIR$/lib/gmail/message.rb" />
+        <option value="$PROJECT_DIR$/lib/gmail/mailbox.rb" />
+        <option value="$PROJECT_DIR$/lib/gmail/client/imap_extensions.rb" />
+        <option value="$PROJECT_DIR$/lib/gmail/client/base.rb" />
       </list>
     </option>
   </component>
@@ -191,20 +154,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gmail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gmail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -224,6 +173,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="gmail" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gmail" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gmail" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gmail" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -235,9 +206,9 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.fileTypes" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
@@ -278,7 +249,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.52018636" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28297362" sideWeight="0.47981367" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28856915" sideWeight="0.47981367" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -378,11 +349,9 @@
         <state line="19" column="8" selection-start="475" selection-end="475" vertical-scroll-proportion="0.4806071" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/gmail.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p0@rails328/gems/mail-2.5.3/lib/mail/message.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="23" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="46" column="8" selection-start="2242" selection-end="2242" vertical-scroll-proportion="0.33275864" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -395,13 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/gmail/client/base.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="24" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/gmail/labels.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -409,23 +371,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/gmail/client/imap_extensions.rb">
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/net/imap.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="26" selection-start="1405" selection-end="1405" vertical-scroll-proportion="0.0">
+        <state line="787" column="8" selection-start="29231" selection-end="29231" vertical-scroll-proportion="0.024875622">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/gmail/mailbox.rb">
+    <entry file="file://$PROJECT_DIR$/lib/gmail.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="43" selection-start="2350" selection-end="2350" vertical-scroll-proportion="0.0">
+        <state line="31" column="23" selection-start="690" selection-end="690" vertical-scroll-proportion="0.024875622">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p0@rails328/gems/mail-2.5.3/lib/mail/message.rb">
+    <entry file="file://$PROJECT_DIR$/lib/gmail/message.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="8" selection-start="2242" selection-end="2242" vertical-scroll-proportion="0.33275864">
+        <state line="27" column="35" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -437,16 +399,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/net/imap.rb">
+    <entry file="file://$PROJECT_DIR$/lib/gmail/client/imap_extensions.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="787" column="8" selection-start="29231" selection-end="29231" vertical-scroll-proportion="-13.16129">
+        <state line="4" column="39" selection-start="153" selection-end="181" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/gmail/message.rb">
+    <entry file="file://$PROJECT_DIR$/lib/gmail/client/base.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="4" selection-start="508" selection-end="508" vertical-scroll-proportion="0.5689655">
+        <state line="26" column="56" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/gmail/mailbox.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="77" selection-start="2236" selection-end="2236" vertical-scroll-proportion="0.65746754">
           <folding />
         </state>
       </provider>
